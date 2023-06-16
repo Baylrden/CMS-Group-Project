@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../../images/space.jpg");
+    background-size: contain;
+    background-color: antiquewhite;
+    color: #d3d3d3;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+
+nav{
+    display: flex;
+    justify-content:space-evenly;   
+    margin: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 5px;
+    border: 2px solid gray;
+}
+
+nav a:hover{
+
+    color: black;
+    background-color:aliceblue ;
+    transition: .3s;
+}
+
+.container{
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+    padding: 25px 70px 25px 70px;
+    margin: 25px 0px 25px 0px;
+    background: rgb(41, 42, 46, .5);
+}
+
+.container h3{
+    line-height: 80px;
+}
+.container .X{
+    font-size: 80px;
+    text-align: center;
+    color: blueviolet;
+}
+
